@@ -13,3 +13,44 @@
 .yellow {
   color: yellow;
 }
+
+.monday :first-child {
+  color: orange;
+  font-weight: bold;
+  font-size: larger;
+}
+.monday :nth-child(n + 2) {
+  color: darkgoldenrod;
+}
+.tuesday :first-child {
+  color: blue;
+  font-weight: bold;
+  font-size: larger;
+}
+.tuesday :nth-child(n + 2) {
+  color: cyan;
+}
+.wednesday :first-child {
+  color: green;
+  font-weight: bold;
+  font-size: larger;
+}
+.wednesday :nth-child(n + 2) {
+  color: seagreen;
+}
+.thursday :first-child {
+  color: coral;
+  font-weight: bold;
+  font-size: larger;
+}
+.thursday :nth-child(n + 2) {
+  color: darkorange;
+}
+.friday :first-child {
+  color: purple;
+  font-weight: bold;
+  font-size: larger;
+}
+.friday :nth-child(n + 2) {
+  color: rgb(240, 37, 240);
+}
