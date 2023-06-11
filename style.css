@@ -54,3 +54,7 @@
 .friday :nth-child(n + 2) {
   color: rgb(240, 37, 240);
 }
+li:hover {
+  font-size: larger;
+  font-weight: bolder;
+}
